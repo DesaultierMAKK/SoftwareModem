@@ -1,0 +1,56 @@
+--- 5G Software Modem Simulation Results ---
+
+Original Message: 'Hello 5G! This is a comprehensive test of our soft...'
+Number of transmitted bits: 24800
+
+=== QPSK Results ===
+  SNR (dB) |    Theoretical BER |      Empirical BER
+----------------------------------------------------
+      -4.0 |           1.86e-01 |           1.88e-01
+      -3.0 |           1.58e-01 |           1.60e-01
+      -2.0 |           1.31e-01 |           1.35e-01
+      -1.0 |           1.04e-01 |           1.01e-01
+       0.0 |           7.86e-02 |           7.71e-02
+       1.0 |           5.63e-02 |           5.73e-02
+       2.0 |           3.75e-02 |           3.85e-02
+       3.0 |           2.29e-02 |           2.15e-02
+       4.0 |           1.25e-02 |           1.32e-02
+       5.0 |           5.95e-03 |           7.26e-03
+       6.0 |           2.39e-03 |           2.22e-03
+       7.0 |           7.73e-04 |           8.87e-04
+       8.0 |           1.91e-04 |           1.21e-04
+       9.0 |           3.36e-05 |           0.00e+00
+      10.0 |           3.87e-06 |           0.00e+00
+      11.0 |           2.61e-07 |           0.00e+00
+      12.0 |           9.01e-09 |           0.00e+00
+      13.0 |           1.33e-10 |           0.00e+00
+      14.0 |           6.81e-13 |           0.00e+00
+      15.0 |           9.12e-16 |           0.00e+00
+
+=== 16QAM Results ===
+  SNR (dB) |    Theoretical BER |      Empirical BER
+----------------------------------------------------
+      -4.0 |           2.15e-01 |           2.39e-01
+      -3.0 |           1.97e-01 |           2.14e-01
+      -2.0 |           1.79e-01 |           1.88e-01
+      -1.0 |           1.60e-01 |           1.64e-01
+       0.0 |           1.39e-01 |           1.44e-01
+       1.0 |           1.18e-01 |           1.21e-01
+       2.0 |           9.76e-02 |           1.02e-01
+       3.0 |           7.74e-02 |           7.73e-02
+       4.0 |           5.86e-02 |           5.92e-02
+       5.0 |           4.19e-02 |           4.42e-02
+       6.0 |           2.79e-02 |           2.62e-02
+       7.0 |           1.70e-02 |           1.70e-02
+       8.0 |           9.25e-03 |           8.55e-03
+       9.0 |           4.39e-03 |           4.35e-03
+      10.0 |           1.75e-03 |           1.73e-03
+      11.0 |           5.65e-04 |           3.63e-04
+      12.0 |           1.39e-04 |           1.21e-04
+      13.0 |           2.42e-05 |           4.03e-05
+      14.0 |           2.76e-06 |           0.00e+00
+      15.0 |           1.84e-07 |           0.00e+00
+
+Decoded Strings at 10dB SNR:
+[QPSK]: 'Hello 5G! This is a comprehensive test of our software modem. Hello 5G! This is a comprehensive test...'
+[16QAM]: 'Hello 5G! This is a comprehmnsive test of our software modem. Hello 5O! This is a comprehensive test...'
